@@ -1,6 +1,110 @@
-body{font-family:Arial,sans-serif;margin:0;background:#f4e7d3;color:#3d3d3d}
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80');background-size:cover;color:white}
-section{max-width:900px;margin:auto;padding:60px 20px}
-.btn{background:#4a5a44;color:white;padding:12px 20px;text-decoration:none;border-radius:8px}
-#countdown{font-size:2rem;font-weight:bold}
-footer{text-align:center;padding:40px}
+:root{
+    --forest:#4A5A44;
+    --earth:#8B6B43;
+    --paper:#F5E9D5;
+    --text:#2F2F2F;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--paper);
+    color:var(--text);
+    font-family:'Montserrat',sans-serif;
+    line-height:1.7;
+}
+
+.hero{
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:5rem;
+}
+
+.hero h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+
+    background:var(--forest);
+    color:white;
+
+    border-radius:50px;
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:90px 30px;
+}
+
+section h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:3rem;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+#countdown{
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+    color:var(--forest);
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:white;
+    margin-bottom:20px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+iframe{
+    border:none;
+    border-radius:20px;
+    background:white;
+}
+
+footer{
+    text-align:center;
+    padding:80px 20px;
+}
