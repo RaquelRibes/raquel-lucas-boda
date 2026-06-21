@@ -1,0 +1,6 @@
+body{font-family:Arial,sans-serif;margin:0;background:#f4e7d3;color:#3d3d3d}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80');background-size:cover;color:white}
+section{max-width:900px;margin:auto;padding:60px 20px}
+.btn{background:#4a5a44;color:white;padding:12px 20px;text-decoration:none;border-radius:8px}
+#countdown{font-size:2rem;font-weight:bold}
+footer{text-align:center;padding:40px}
